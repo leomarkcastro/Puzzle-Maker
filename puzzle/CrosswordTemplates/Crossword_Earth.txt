@@ -1,0 +1,10 @@
+Soil = The part of the earth's surface consisting of humus and disintegrated rock
+Land = Reach or come to rest
+Erosion = (geology) the mechanical process of wearing or grinding something down (as by particles washing over it)
+Ocean = A large body of water constituting a principal part of the hydrosphere
+Lake = A body of (usually fresh) water surrounded by land
+Sea = A division of an ocean or a large body of salt water partially enclosed by land
+Mountain = A land mass that projects well above its surroundings; higher than a hill
+Forest = The trees and other plants in a large densely wooded area
+Tundra = A vast treeless plain in the arctic regions where the subsoil is permanently frozen
+River = A large natural stream of water (larger than a creek)

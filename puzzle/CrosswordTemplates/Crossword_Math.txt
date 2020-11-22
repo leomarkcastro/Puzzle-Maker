@@ -1,0 +1,11 @@
+Sigma = The 18th letter of the greek alphabet
+Addition = A component that is added to something to improve it
+Subtraction = An arithmetic operation in which the difference between two numbers is calculated
+Division = An army unit large enough to sustain combat
+Multiply = In several ways; in a multiple manner
+Derivative = A compound obtained from, or regarded as derived from, another compound
+Integral = The result of a mathematical integration; f(x) is the integral of f(x) if df/dx = f(x)
+Trigonometry = The mathematics of triangles and trigonometric functions
+Sine = Ratio of the length of the side opposite the given angle to the length of the hypotenuse of a right-angled triangle
+Cosine = Ratio of the adjacent side to the hypotenuse of a right-angled triangle
+Euler = Swiss mathematician (1707-1783)

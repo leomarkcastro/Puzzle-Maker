@@ -1,0 +1,19 @@
+.title_bar{
+    flow: horizontal;
+    border-bottom: 2px solid black;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    padding-top: 5rem;
+    background-color: skyblue;
+}
+
+.title_bar p{
+    padding-left: 20px;
+    margin-top: 0.7*;
+    margin-bottom: 0;
+}
+
+.title_bar .version{
+    font-size: 10rem;
+    margin-left: 1*;
+}

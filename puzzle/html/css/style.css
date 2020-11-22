@@ -1,0 +1,155 @@
+* { 
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    font-size: 20rem;
+    color: #222222;
+    
+    font-family: 'Open Sans';
+    font-weight: normal;
+    font-style: normal;
+
+    background-color: white;
+    overflow: hidden;
+    text-rendering: optimizeLegibility;
+}
+
+/*
+
+.com-bold {
+    font-family: 'Comfortaa';
+    font-weight: bold;
+    font-style: normal;
+}
+
+.com-light {
+    font-family: 'Comfortaa';
+    font-weight: 300;
+    font-style: normal;
+}
+
+.com {
+    font-family: 'Comfortaa';
+    font-weight: 500;
+    font-style: normal;
+}
+
+*/
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Comfortaa';
+}
+
+h1 {
+    font-weight: bold;
+    font-style: normal;
+    margin: 0;
+    font-size: 60rem;
+}
+
+
+
+
+.hide{
+    display: none;
+}
+
+.flex0{
+    width: 0 !important;
+}
+
+.height0{
+    height: 0 !important;
+    color: rgba(0,0,0,0) !important;
+}
+
+.selected{
+    background-color: blue !important;
+    color: white;
+}
+
+
+
+
+.parent{
+    height: 100vh;
+}
+
+
+
+
+
+.button{
+    margin: 1*;
+    margin-top: 1*;
+    padding: 10px;
+    text-align: center;
+    background-color:lightblue;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color:skyblue;
+    box-shadow: 5px 5px 5px rgba(0,0,0, 0.1);
+}
+
+
+
+.buttonX{
+    background-color: rgba(255,0,0,0.2);
+    transition: width 0.2s;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.buttonX:hover{
+    background-color: rgba(255,0,0,0.5);
+}
+
+.buttonUP{
+    background-color: rgba(0,255,0,0.2);
+    transition: width 0.2s;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.buttonUP:hover{
+    background-color: rgba(0,255,0,0.5);
+}
+
+.buttonDOWN{
+    background-color: rgba(0,0,255,0.2);
+    transition: width 0.2s;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.buttonDOWN:hover{
+    background-color: rgba(0,0,255,0.5);
+}
+
+.buttonContainer{
+    flow:horizontal;
+    width: 100%;
+    
+}
+
+.buttonContainer > *{
+    margin: 10px 0;
+}
+
+.buttonContainer > *:first-child{
+    margin-left: auto;
+}
+
+.buttonContainer > *:last-child{
+    margin-right: auto;
+}

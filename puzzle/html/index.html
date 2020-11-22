@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/fonts.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/s_titleBar.css">
+    <link rel="stylesheet" type="text/css" href="css/s_tabBar.css">
+    <link rel="stylesheet" type="text/css" href="css/s_tabPlay.css">
+    <link rel="stylesheet" type="text/css" href="css/s_tabPrint.css">
+    <link rel="stylesheet" type="text/css" href="css/s_overlay.css">
+</head>
+<body>
+
+    <div class="overlay height0">
+
+        <div class="overlay_notif hide">
+
+            <div class="notif_box">
+                <h3>Notification</h3>
+                <p>A game is already running</p>
+            </div>
+
+        </div>
+
+        <div class="overlay_loading hide">
+
+            <div class="loading_box">
+                <h3 class="lb_title">Action on progress...</h3>
+                <div class="loadingHandler">
+                    <div class="loadingBar">
+                        50%
+                    </div>
+                </div>
+                <p class="lb_detail">A game is already running</p>
+            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="parent">
+
+        <div class="title_bar">
+            <h1>Puzzle Pack</h1>
+            <p>Puzzle Pack Generators</p>
+            <p class="version">Version 01.10.20</p>
+        </div>
+
+        <div class="tab_bar">
+            <h3 id="play">Play</h3>
+            <h3 id="print">Print</h3>
+        </div>
+
+        <div class="play_tab hide">
+            <div class="pickGame">
+                <div class="pickGame_title">
+                    <h2>Play Game</h2>
+                </div>
+                <ul>
+                    <li class="divider">Pack 1</li>
+                    <li class="buttons">Number Search</li>
+                    <li class="buttons">Crossword</li>
+                    <li class="buttons">Maze</li>
+                    <li class="buttons">Kakuro</li>
+                    <li class="buttons">Hidato</li>
+                    <li class="buttons">Nonogram</li>
+                    <li class="buttons">Cryptogram</li>
+                </ul>
+            </div>
+            <div class="paramGame flex0">
+                <h3>Parameters: Number Search</h3>
+
+                <div class="param_set">
+                    <label class="param_label">Int :</label>
+                    <input type="hslider" max="100" value="50" class="slider">
+                </div>
+                
+                <div class="param_set">
+                    <label class="param_label">How Many :</label>
+                    <input type="integer" step="1" accesskey="^1" value="10" min="5" max="40"/>
+                </div>
+
+                <div class="param_set">
+                    <label class="param_label">Option :</label>
+                    <select type="dropdown">
+                        <option>First</option>
+                        <option>Second</option>
+                        <option>Third</option>
+                    </select>
+                </div>
+
+                <div class="param_set">
+                    <label class="param_label">File Select :</label>
+                    <button>Pick File</button>
+                </div>
+
+                <div class="param_play">
+                    <div class="button">PLAY GAME</div>
+                </div>
+                <div class="buttonContainer">
+                    <div class="buttonEasy">Easy</div>
+                    <div class="buttonMedium">Medium</div>
+                    <div class="buttonHard">Hard</div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="print_tab hide">
+
+            <div class="printSettings">
+                <h3>Print Settings</h3>
+                <div class="param_set">
+                    <label class="param_label">How Many :</label>
+                    <input type="integer" step="1" accesskey="^1" value="10" min="1" max="100"/>
+                </div>
+
+                <div class="param_set">
+                    <label class="param_label">Option :</label>
+                    <select type="dropdown">
+                        <option>First</option>
+                        <option>Second</option>
+                        <option>Third</option>
+                    </select>
+                </div>
+                
+                <div class="param_print">
+                    <div class="button">START MAKING PDFs</div>
+                </div>
+
+            </div>
+
+            <div class="printChoices">
+                <h3>Pick Game</h3>
+                <ul>
+                    <li class="divider">Pack 1</li>
+                    <li class="buttons">Number Search</li>
+                    <li class="buttons">Crossword</li>
+                    <li class="buttons">Maze</li>
+                    <li class="buttons">Kakuro</li>
+                    <li class="buttons">Hidato</li>
+                    <li class="buttons">Nonogram</li>
+                    <li class="buttons">Cryptogram</li>
+                </ul>
+            </div>
+            
+            <div class="printQueue">
+                <h3>Print Queue</h3>
+                
+                <div class="queueList">
+                    <!--
+
+                    <div class="queueItem">
+                        <h5>Number Search</h5>
+
+                        <div class="param_set">
+                            <label class="param_label">How Many :</label>
+                            <input type="integer" step="1" accesskey="^1" value="10" min="1" max="100"/>
+                        </div>
+
+                        <div class="param_set">
+                            <label class="param_label">How Many :</label>
+                            <input type="integer" step="1" accesskey="^1" value="10" min="5" max="40"/>
+                        </div>
+
+                        <div class="param_set">
+                            <label class="param_label">How Many :</label>
+                            <input type="integer" step="1" accesskey="^1" value="10" min="5" max="40"/>
+                        </div>
+
+                        <div class="buttonContainer">
+                            <p class="buttonX">Remove</p>
+                            <p class="buttonUP">Move Up</p>
+                            <p class="buttonDOWN">Move Down</p>
+                        </div>
+                        
+                    </div>
+
+                    <div class="queueItem">
+                        <h5>Number Search</h5>
+
+                        <div class="param_set">
+                            <label class="param_label">How Many :</label>
+                            <input type="integer" step="1" accesskey="^1" value="10" min="1" max="100"/>
+                        </div>
+
+                        <div class="param_set">
+                            <label class="param_label">How Many :</label>
+                            <input type="integer" step="1" accesskey="^1" value="10" min="5" max="40"/>
+                        </div>
+
+                        <div class="param_set">
+                            <label class="param_label">How Many :</label>
+                            <input type="integer" step="1" accesskey="^1" value="10" min="5" max="40"/>
+                        </div>
+
+                        <div class="buttonContainer">
+                            <p class="buttonX">Remove</p>
+                            <p class="buttonUP">Move Up</p>
+                            <p class="buttonDOWN">Move Down</p>
+                        </div>
+                        
+                    </div>
+                
+                    -->
+                
+                </div>
+            
+            </div>
+        </div>
+    </div>
+
+    <script type="text/tiscript" src="js/script.js"></script>
+</body>
+</html>

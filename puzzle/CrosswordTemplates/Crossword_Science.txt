@@ -1,0 +1,9 @@
+Speed = Distance travelled per unit time
+Nitrogen = A common nonmetallic element that is normally a colorless odorless tasteless inert diatomic gas; constitutes 78 percent of the atmosphere by volume; a constituent of all living tissues
+Oxygen = A nonmetallic bivalent element that is normally a colorless odorless tasteless nonflammable diatomic gas; constitutes 21 percent of the atmosphere by volume; the most abundant element in the earth's crust
+Compounds = ---No definition found---
+Molecules = ---No definition found---
+Moles = ---No definition found---
+Pressure = The force applied to a unit area of surface; measured in pascals (si unit) or in dynes (cgs unit)
+Relativity = (physics) the theory that space and time are relative concepts rather than absolute concepts
+Derivative = A compound obtained from, or regarded as derived from, another compound

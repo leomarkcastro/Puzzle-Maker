@@ -1,0 +1,9 @@
+Arpeggio = A chord whose notes are played in rapid succession rather than simultaneously
+Tempo = (music) the speed at which a composition is to be played
+Key = Metal device shaped in such a way that when it is inserted into the appropriate lock the lock's mechanism can be rotated
+Scale = Measure by or as if by a scale
+Flute = Form flutes in
+Symphony = A long and complex sonata for symphony orchestra
+Vibrato = (music) a pulsating effect in an instrumental or vocal tone produced by slight and rapid variations in pitch
+Allegro = In a quick and lively tempo
+Metronome = Clicking pendulum indicates the exact tempo of a piece of music

@@ -1,0 +1,107 @@
+.play_tab{
+    flow: horizontal;
+    height: 1*;
+    padding-top: 20px;
+}
+
+.pickGame{
+    flow: vertical;
+    padding: 40px;
+    width: 2*;
+    height: 1*;
+    padding-top: 0px;
+}
+
+.pickGame ul{
+    list-style: none;
+    height: 1*;
+    margin-top: 0;
+    overflow-y: auto;
+}
+
+.pickGame ul .buttons{
+    padding: 15px;
+}
+
+.pickGame ul .buttons:hover{
+    padding: 15px;
+    background-color: lightBlue;
+}
+
+.pickGame ul .divider{
+    padding: 20px;
+    border-bottom: 1px solid black;
+}
+
+/***************** PARAMETERS *************************/
+
+.paramGame{
+    width: 3*;
+    overflow-y: auto;
+    height: 65vh;
+    transition: width 0.75s;
+}
+
+.slider{
+    color: blue;
+    background-color: green;
+    paintBackground: red;
+}
+
+.param_set{
+    width: 90%;
+    margin-bottom: 20px;
+}
+
+.param_set .param_label{
+    padding-right: 500px;
+    margin-right: 200px;
+}
+
+.param_set > *{
+    margin-left: 1*;
+    width: 25%;
+}
+
+.param_set select{
+
+}
+
+.param_play{
+    width: 1*;
+    height: 100px;
+    flow:vertical;
+}
+
+.buttonEasy{
+    background-color: rgba(0,255,0,0.2);
+    transition: width 0.2s;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.buttonEasy:hover{
+    background-color: rgba(0,255,0,0.5);
+}
+
+.buttonMedium{
+    background-color: rgba(0,0,255,0.2);
+    transition: width 0.2s;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.buttonMedium:hover{
+    background-color: rgba(0,0,255,0.5);
+}
+
+.buttonHard{
+    background-color: rgba(255,0,0,0.2);
+    transition: width 0.2s;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.buttonHard:hover{
+    background-color: rgba(255,0,0,0.5);
+}

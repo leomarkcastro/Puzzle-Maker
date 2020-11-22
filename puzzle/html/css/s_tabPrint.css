@@ -1,0 +1,73 @@
+.print_tab{
+    flow: horizontal;
+    height: 1*;
+}
+
+.printSettings{
+    width: 1*;
+    height: 0.9*;
+    overflow-y: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.printChoices{
+    width: 1*;
+    height: 0.9*;
+    overflow-y: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.printChoices ul{
+    list-style: none;
+}
+
+.printChoices .divider{
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+
+.printChoices .buttons:hover{
+    background-color: lightBlue;
+}
+
+.printQueue{
+    width: 2*;
+    height: 0.9*;
+    overflow-y: auto;
+}
+
+.queueList{
+    padding: 0% 5%;
+}
+
+.queueItem{
+    /*border: 1px solid black;*/
+    box-shadow: 5px 5px 10px rgba(0,0,0,0.2);
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.queueItem .param_set{
+    margin: 0;
+}
+
+.queueItem > *{
+    padding: 0% 5%;
+    font-size: 15rem;
+}
+
+.queueItem h5{
+    margin: 15px 5px;
+    padding: 1% 4%;
+}
+
+.param_print{
+    width: 1*;
+    padding: 3%;
+}
+
+.param_print .button{
+    width: 60%;
+}
